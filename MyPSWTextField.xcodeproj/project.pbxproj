@@ -15,6 +15,7 @@
 		BF2315431D8254710054B346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2315411D8254710054B346 /* LaunchScreen.storyboard */; };
 		BF23154E1D8254710054B346 /* MyPSWTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF23154D1D8254710054B346 /* MyPSWTextFieldTests.m */; };
 		BF2315591D8254710054B346 /* MyPSWTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2315581D8254710054B346 /* MyPSWTextFieldUITests.m */; };
+		BF2315681D8254A50054B346 /* PSWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2315671D8254A50054B346 /* PSWTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BF2315541D8254710054B346 /* MyPSWTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPSWTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2315581D8254710054B346 /* MyPSWTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPSWTextFieldUITests.m; sourceTree = "<group>"; };
 		BF23155A1D8254710054B346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2315661D8254A50054B346 /* PSWTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWTextField.h; sourceTree = "<group>"; };
+		BF2315671D8254A50054B346 /* PSWTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				BF2315411D8254710054B346 /* LaunchScreen.storyboard */,
 				BF2315441D8254710054B346 /* Info.plist */,
 				BF2315331D8254710054B346 /* Supporting Files */,
+				BF2315661D8254A50054B346 /* PSWTextField.h */,
+				BF2315671D8254A50054B346 /* PSWTextField.m */,
 			);
 			path = MyPSWTextField;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2315681D8254A50054B346 /* PSWTextField.m in Sources */,
 				BF23153B1D8254710054B346 /* ViewController.m in Sources */,
 				BF2315381D8254710054B346 /* AppDelegate.m in Sources */,
 				BF2315351D8254710054B346 /* main.m in Sources */,
